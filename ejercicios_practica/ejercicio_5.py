@@ -17,6 +17,18 @@ print('Ingrese palabra 2:')
 palabra_2 = str(input())
 
 # De la primera palabra tome las primeras tres letras, utilice el operador :
+
+sub_text1 = palabra_1[:3]
+
 # De la segunda palabra tome las primeras dos letras, utilice el operador :
+
+sub_text2 = palabra_2[:2]
+
 # Formar una nueva palabra con los recortes solicitados
+
+combinacion = sub_text1 + sub_text2
+
 # Imprima en pantalla los resultados
+
+print("La combinación entre los recortes solicitados es:", combinacion)
+
